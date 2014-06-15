@@ -7,5 +7,5 @@ This repository contains code related to the course project in the Getting and C
 <li>Go to the current directory: setwd("???")</li>
 <li>Install plyr package: install.packages("plyr")</li>
 <li>Run the script: source('run_analysis.R')</li>
-<li>Two generate files should be generated: complete_mean_and_std.csv and mean_per_activity_and_subject.csv</li>
+<li>Two files should be generated: complete_mean_and_std.csv and mean_per_activity_and_subject.csv</li>
 </ol>
