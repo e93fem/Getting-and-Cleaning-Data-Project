@@ -36,8 +36,9 @@ The columns are as follows:
 [64] fBodyBodyGyroMag.std..      fBodyBodyGyroJerkMag.mean.. fBodyBodyGyroJerkMag.std.. 
 [67] subject                     activity 
 
-Columns 1 to 66 are numbers
-Column 67 (subject) is an integer
-Column 68 (activity) is a Factor with six different values
+
+>Columns 1 to 66 are numbers
+>Column 67 (subject) is an integer
+>Column 68 (activity) is a Factor with six different values
 
  
