@@ -1,16 +1,11 @@
-This data extraction was made by Fredrik Emilsson (fredrik.emilsson@live.se). It is the 
-project of the Getting and Cleaning Data course. It is based on a public data set
-that was downloaded here: 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+This data extraction was made by Fredrik Emilsson (fredrik.emilsson@live.se). It is the project of the Getting and Cleaning Data course. It is based on a public data set that was downloaded here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 
 From that data mean and standard valuation columns was collected.  
 
-Two data sets are included (complete_mean_and_std.csv and mean_per_activity_and_subject.csv). 
-The columns are the same for both with the difference that in the first one all data is 
-included but in the second one all means and standard deviation are the mean related to
-each combination of (subject, activity).
+Two data sets are included (complete_mean_and_std.csv and mean_per_activity_and_subject.csv). The columns are the same for both with the difference that in the first one all data is included but in the second one all means and standard deviation are the mean related to
+each combination of (subject, activity).  
 
-The columns are as follows:
+The columns are as follows:  
 
  [1] tBodyAcc.mean...X           tBodyAcc.mean...Y           tBodyAcc.mean...Z          
  [4] tBodyAcc.std...X            tBodyAcc.std...Y            tBodyAcc.std...Z           
@@ -33,12 +28,12 @@ The columns are as follows:
 [55] fBodyGyro.mean...Z          fBodyGyro.std...X           fBodyGyro.std...Y          
 [58] fBodyGyro.std...Z           fBodyAccMag.mean..          fBodyAccMag.std..          
 [61] fBodyBodyAccJerkMag.mean..  fBodyBodyAccJerkMag.std..   fBodyBodyGyroMag.mean..    
-[64] fBodyBodyGyroMag.std..      fBodyBodyGyroJerkMag.mean.. fBodyBodyGyroJerkMag.std.. 
-[67] subject                     activity 
+[64] fBodyBodyGyroMag.std..      fBodyBodyGyroJerkMag.mean.. fBodyBodyGyroJerkMag.std..   
+[67] subject                     activity  
 
 
->Columns 1 to 66 are numbers
->Column 67 (subject) is an integer
->Column 68 (activity) is a Factor with six different values
+Columns 1 to 66 are numbers  
+Column 67 (subject) is an integer  
+Column 68 (activity) is a Factor with six different values
 
  
