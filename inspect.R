@@ -1,4 +1,4 @@
-setwd("C:/Users/Fredrik/Documents/Getting and Cleaning Data/Project")
+setwd("C:/Users/Fredrik/Documents/Getting and Cleaning Data/Getting-and-Cleaning-Data-Project")
 
 install.packages("plyr")
 
