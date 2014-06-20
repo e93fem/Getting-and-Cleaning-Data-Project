@@ -1,7 +1,7 @@
 # Get path
 if (!exists("baseDir")) {
-  print("baseDir does not exist, set to current directory")
   baseDir <- getwd()
+  print(paste("baseDir does not exist, set to current directory: ", baseDir))
 } else {
   print(paste("baseDir is", baseDir))
 }
